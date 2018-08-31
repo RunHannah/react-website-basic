@@ -16,10 +16,13 @@ class App extends Component {
     return (
       <Layout fixedHeader>
         <Header
+          className="header-color"
+          title="Title"
+          scroll
           title={
             <span>
               <span style={{ color: "#ddd" }} />
-              <strong>The Title</strong>
+              <strong>Hannah Lee</strong>
             </span>
           }
         >

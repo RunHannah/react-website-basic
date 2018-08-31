@@ -1,4 +1,4 @@
-React tutorial - basic portfolio website with React Router and Material design; includes top and side navigation bar
+React - basic portfolio website with React Router and Material design; includes top and side navigation bar
 
 Clone Repository
 
