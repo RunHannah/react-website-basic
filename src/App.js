@@ -17,14 +17,12 @@ class App extends Component {
       <Layout fixedHeader>
         <Header
           className="header-color"
-          title="Title"
-          scroll
           title={
-            <span>
-              <span style={{ color: "#ddd" }} />
-              <strong>Hannah Lee</strong>
-            </span>
+            <Link style={{ textDecoration: "none", color: "white" }} to="/">
+              Hannah Lee
+            </Link>
           }
+          scroll
         >
           <Navigation>
             <Link to="/resume">Resume</Link>
@@ -33,7 +31,13 @@ class App extends Component {
             <Link to="/contact">Contact</Link>
           </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer
+          title={
+            <Link style={{ textDecoration: "none", color: "grey" }} to="/">
+              Hannah Lee
+            </Link>
+          }
+        >
           <Navigation>
             <Link to="/resume">Resume</Link>
             <Link to="/aboutMe">About Me</Link>
